@@ -8,7 +8,7 @@ function App () {
   return (
     <div className="App is-family-sans-serif">
       <MainNav />
-      <main>
+      <main className="is-flex is-align-items-center">
         <Home />
       </main>
       <Footer />

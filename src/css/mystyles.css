@@ -6950,13 +6950,18 @@ main {
   .primary-bg-color .content h2, .primary-bg-color h3 {
     color: #fff; }
 
-.logo {
-  width: 150px; }
-
 .navbar-items {
   position: absolute;
   top: 1rem;
   right: 1rem; }
+
+footer {
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1.75rem;
+  padding-left: 1.75rem; }
 
 /* CUSTOM COLORS */
 @media screen and (max-width: 767px) {
