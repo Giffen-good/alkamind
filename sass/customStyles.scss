@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import './customVariables.sass';
+html, body {
+  height:100%;
+}
+body {
+  min-height:100vh;
+  position:relative;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.04em;
+}
+main {
+  flex:1;
+}
+.primary-bg-color {
+  background-color: $primary;
+  color: #fff;
+  .content h2, h3 {
+    color: #fff
+  }
+}
+.logo {
+  width:150px;
+}
+.navbar-items {
+  position:absolute;
+  top:1rem;
+  right:1rem;
+}
+/* CUSTOM COLORS */
+$colors: 
+  "background-primary" "background-color" $primary,
+  "has-background-link" "background-color" '#000';
+  
+@media screen and (max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
+@each $name, $prop, $value in $colors {
+  .has-#{$name} {
+    $prop: "#{$value} !important";
+  }
+}
