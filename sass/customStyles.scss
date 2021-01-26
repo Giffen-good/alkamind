@@ -22,12 +22,15 @@ main {
   }
 }
 .logo {
-  width:150px;
+  width:300px;
 }
 .navbar-items {
-  position:absolute;
   top:1rem;
   right:1rem;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
 }
 /* CUSTOM COLORS */
 $colors: 
@@ -38,6 +41,16 @@ $colors:
   html {
     font-size: 14px;
   }
+}
+@media screen and (max-width: 700px) {
+  .navbar-items {
+    position: initial;
+    width:100%;
+  }
+  nav, .navbar-items {
+    justify-content: center;
+  }
+
 }
 @each $name, $prop, $value in $colors {
   .has-#{$name} {

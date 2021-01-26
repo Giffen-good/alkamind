@@ -32,7 +32,7 @@ class Services extends React.Component {
     ]
     return (
       <section id="services" className="primary-bg-color">
-        <div className="p-5 pt-6 container content is-max-desktop">
+        <div className="pl-5 pr-5 pb-6 pt-6 container content is-max-desktop">
           <h2 className="is-size-1 mb-3">Services</h2>
           <div className="container has-text-left pb-4 is-max-desktop">
             <p>Integer id ante sed erat feugiat aliquet sit amet ac arcu. Proin tristique luctus neque varius mattis. Vivamus tempus auctor enim, id cursus mauris finibus at. Quisque ut nunc pellentesque, volutpat enim a, vestibulum leo. Quisque posuere mollis tortor ut porttitor. Proin erat sapien, iaculis quis auctor posuere, vulputate ac nisl. Aliquam augue lacus, lobortis vel euismod vitae, commodo at ipsum. Etiam posuere sit amet ex id bibendum.</p>
@@ -43,7 +43,7 @@ class Services extends React.Component {
               return (
                 <li key={i} className="has-text-left" style={{ listStyleType: 'none' }}>
                   <h3 className="is-size-4">{service.name}</h3>
-                  <ol className="is-lower-roman pb-4 ml-5">
+                  <ol className="is-lower-roman ml-5">
                   {
                     service.serviceList.map((subService, j) => {
                       return <li key={j} className="pt-1 pb-1">{subService}</li>
