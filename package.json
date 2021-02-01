@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
-    "bulma": "^0.9.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
@@ -47,13 +46,13 @@
     ]
   },
   "devDependencies": {
+    "bulma": "^0.9.1",
     "eslint": "^7.18.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
-    "bulma": "^0.7.2",
     "node-sass": "^4.9.2"
   }
 }
