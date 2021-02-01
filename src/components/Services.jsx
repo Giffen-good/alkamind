@@ -35,7 +35,7 @@ class Services extends React.Component {
         <div className="pl-5 pr-5 pb-6 pt-6 container content is-max-desktop">
           <h2 className="is-size-1 mb-3">Services</h2>
           <div className="container has-text-left pb-4 is-max-desktop">
-            <p>Integer id ante sed erat feugiat aliquet sit amet ac arcu. Proin tristique luctus neque varius mattis. Vivamus tempus auctor enim, id cursus mauris finibus at. Quisque ut nunc pellentesque, volutpat enim a, vestibulum leo. Quisque posuere mollis tortor ut porttitor. Proin erat sapien, iaculis quis auctor posuere, vulputate ac nisl. Aliquam augue lacus, lobortis vel euismod vitae, commodo at ipsum. Etiam posuere sit amet ex id bibendum.</p>
+            <p>With dacades of experience in the evolution of digital technology in a variety of international setting and diverse set of business, we can bring a significant level of empathy to the challenges you are experiencing. Let us start with an exploratory conversation.</p>
           </div>
           <ul className="ml-0">
           {

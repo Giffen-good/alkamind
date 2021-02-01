@@ -3,7 +3,7 @@ class LandingSection extends React.Component {
   render () {
     return (
       <div className="landing-section container is-max-desktop p-5 pb-6">
-        <p>Integer id ante sed erat feugiat aliquet sit amet ac arcu. Proin tristique luctus neque varius mattis. Vivamus tempus auctor enim, id cursus mauris finibus at. Quisque ut nunc pellentesque, volutpat enim a, vestibulum leo. Quisque posuere mollis tortor ut porttitor. Proin erat sapien, iaculis quis auctor posuere, vulputate ac nisl. Aliquam augue lacus, lobortis vel euismod vitae, commodo at ipsum. Etiam posuere sit amet ex id bibendum. Donec metus leo, molestie at nisi ut, convallis maximus mauris. Donec tortor massa, rutrum eget scelerisque vel, pellentesque in nibh. Nunc sed feugiat neque. Aenean facilisis sem condimentum, porttitor libero ac, posuere orci.</p>
+        <p>The Alkamind moment is when the franetic noise in you mind calms down and you are able to engage in a conversation where you feel that you have been heard. No presciption or guru power play, but a simple conversation that opens up a peaceful clarity. Of couse there is a world of experience on all sides of the conversation, but the sustainability and resiliance of the systems that we create will be based on the threads of interpersonal relationships between those that build and those that maintain with care.</p>
       </div>
     )
   }
