@@ -3,7 +3,8 @@ import { HashLink } from 'react-router-hash-link'
 
 const nav = [
   { name: 'Services', path: '/#services', Component: 'Services' },
-  { name: 'Contact', path: '/#contact', Component: 'Contact' }
+  { name: 'Contact', path: '/#contact', Component: 'Contact' },
+  { name: 'Governance', path: '/#governance', Component: 'Governance' }
 ]
 class MainNav extends React.Component {
   render () {
@@ -15,7 +16,6 @@ class MainNav extends React.Component {
                         {nav.map((navItem, i) => {
                           return <li className="navbar-item" key={i}><HashLink smooth to={navItem.path}>{navItem.name}</HashLink></li>
                         })}
-                        <li className="navbar-item"><a href="/images/stratified-governance-model.jpg" target="_blank">Governance</a></li>
                         <li className="navbar-item">
                             <a href="https://www.linkedin.com/in/alfrock/" target="_blank" rel="noreferrer" className="icon" style={{ height: '2.2rem', width: '2.2rem' }}><img src="/images/linkedin-black.png" /></a>
                         </li>
