@@ -18,7 +18,8 @@ main {
   background-color: $primary;
   color: #fff;
   .content h2, h3 {
-    color: #fff
+    color: #fff;
+    margin: 0.6666em 0;
   }
 }
 .logo {
@@ -31,6 +32,12 @@ main {
 nav {
   display: flex;
   flex-wrap: wrap;
+}
+p:first-child, p:last-child {
+  margin: 0 0;
+}
+p {
+  margin: 1em 0;
 }
 /* CUSTOM COLORS */
 $colors: 

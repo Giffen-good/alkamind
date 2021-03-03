@@ -1,0 +1,56 @@
+/* Bulma Utilities */
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+html, body {
+  height: 100%; }
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.04em; }
+
+main {
+  flex: 1; }
+
+.primary-bg-color {
+  background-color: #ca6c26;
+  color: #fff; }
+  .primary-bg-color .content h2, .primary-bg-color h3 {
+    color: #fff;
+    margin: 0.6666em 0; }
+
+.logo {
+  width: 300px; }
+
+.navbar-items {
+  top: 1rem;
+  right: 1rem; }
+
+nav {
+  display: flex;
+  flex-wrap: wrap; }
+
+p:first-child, p:last-child {
+  margin: 0 0; }
+
+p {
+  margin: 1em 0; }
+
+/* CUSTOM COLORS */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 14px; } }
+
+@media screen and (max-width: 700px) {
+  .navbar-items {
+    position: initial;
+    width: 100%; }
+  nav, .navbar-items {
+    justify-content: center; } }
