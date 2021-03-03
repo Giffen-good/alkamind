@@ -6948,7 +6948,8 @@ main {
   background-color: #ca6c26;
   color: #fff; }
   .primary-bg-color .content h2, .primary-bg-color h3 {
-    color: #fff; }
+    color: #fff;
+    margin: 0.6666em 0; }
 
 .logo {
   width: 300px; }
@@ -6960,6 +6961,12 @@ main {
 nav {
   display: flex;
   flex-wrap: wrap; }
+
+p:first-child, p:last-child {
+  margin: 0 0; }
+
+p {
+  margin: 1em 0; }
 
 /* CUSTOM COLORS */
 @media screen and (max-width: 767px) {
