@@ -3,7 +3,7 @@
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700');
 
-@import './customVariables.sass';
+@import './_customVariables.sass';
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/base/_all.sass";
@@ -14,5 +14,5 @@
 @import "../node_modules/bulma/sass/helpers/_all.sass";
 @import "../node_modules/bulma/sass/grid/_all.sass";
 
-@import './customStyles.scss';
+@import './_customStyles.scss';
 
