@@ -6979,3 +6979,7 @@ p {
     width: 100%; }
   nav, .navbar-items {
     justify-content: center; } }
+
+.calendly-inline-widget {
+  min-width: 320px;
+  height: 723px; }
